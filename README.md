@@ -1,23 +1,20 @@
-![alt text](https://github.com/Cidavieira/Analytics_House_Rocket/blob/main/image.jpg)
+![alt text](https://github.com/Cidavieira/regression_rossmann/blob/main/rossmannimage.png)
 # Regression Rossmann
   # Objetivo: 
-  Gerar insights atráves da análise e manipulação dos dados para auxiliar a tomada de decisão pelo time de negócio.
+  Fazer previsões do total de vendas de cada loja do conglomerado drogaria Rossmann.
   # Questão de Negócio (Bussiness Problem): 
   ## Responder a duas questões: 
-  1. Quais são os imóveis que a House Rocket deveria comprar e por qual preço? 
-  2. Uma vez o imóvel comprado, qual o melhor momento para vende-lo e por qual preço?
+  1. Quanto devo separar de budget para fazer a reforma da loja, levando em consideração qual a previsão de vendas daquela determinada loja? 
   # Premissas de Negócio (Bussiness Assumptions): 
-  Imóveis no periodo frio (meses 12,1,2,3,4,5,) tendem a vender mais barato que no periodo quente (meses 6,7,8,9,10,11) no conjunto de dados analisado, América do Norte.
+  Lojas que não possuem dados de distancia do concorrente utilizaremos a distancia de 200000 km.
   # Planejamento (Solution Strategy) - Entendimento do Negócio: 
-  ## Vou gerar 2 relatórios:
-  1. Relatório com sugestões de compra de imóvel por um valor recomendado. 
-  2. Relatório com as sugestões de venda de um imóvel por um valor recomendado.
+  ## Vou gerar 1 coluna chamada "prediction":
+  No retorno dos dados, criarei uma nova coluna com a previsão de vendas dos 6 ultimos mêses.
   # Planejamento (Solution Strategy) - Ferramentas: 
-  Python 3.8, Pycharm e Jupiter Notebook.
+  Python 3.8, cloud render, bot telegram.
   # Resultados Financeiros para o Negócio (Business Result): 
-  Criação da coluna Lucro, se todas as recomendações forem seguidas, o lucro da empresa será de  935 milhões de dolares = 935.745.417,0
+  Criação da coluna "prediction", que nos mostrará quanto a loja irá vender dentro do prazo de 6 meses.
   # Conclusão (Conclusions): 
-  O objetivo foi alcançado, é possível ter uma idéia claro dos melhores negócios do portfólio.
-  O Painel pode ser acessado pelo Link https://cidavieira-analytics-house-rocket-home-udtx4t.streamlit.app/
+  O objetivo foi alcançado, é possível acesar as previsões do modelo utilizando o bot do telegram, o jupiter notebook através do Postman (ferramenta que dá suporte à   documentação das requisições feitas pela API.
   # Próximos Passos (Next Steps To Improve):
-  Adicionar ferramentas de Machine Learning para melhorar as recomendações.
+  Adicionar novo projeto para previsão da quantidade de customers que cada loja terá, dado que essa feature é bem relacionada com a feature vendas.
