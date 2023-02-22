@@ -7,7 +7,7 @@ from rossmann.Rossmann import Rossmann
 
 # loading model
 #model = pickle.load(open('\\Users\\cida\\Curso_DsEmProd\\model\\model_rossmann.pkl', 'rb'))
-model = pickle.load(open('\\model\\model_rossmann.pkl', 'rb'))
+model = pickle.load(open('model\\model_rossmann.pkl', 'rb'))
 
 # initialize API
 app = Flask(__name__)
