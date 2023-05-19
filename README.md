@@ -1,5 +1,11 @@
 ![alt text](https://github.com/Cidavieira/regression_rossmann/blob/main/rossmannimage.png)
+# Video Demonstrativo:
+![ressourcesh](https://github.com/Cidavieira/regression_rossmann/blob/main/Video_230519192515.gif)
+
+
 # Regression Rossmann
+
+
   # Objetivo: 
   Fazer previsões do total de vendas de cada loja do conglomerado drogaria Rossmann.<br />
   Rossmann é uma das maiores redes de drogarias da Europa, com cerca de 56.200 funcionários e mais de 4.000 lojas.<br />
